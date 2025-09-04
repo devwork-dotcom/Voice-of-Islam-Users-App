@@ -1,66 +1,66 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history/
-.svn/
-migrate_working_dir/
-
-# IntelliJ / Android Studio
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# VS Code (optional, uncomment if you want)
-#.vscode/
-
-# Flutter / Dart / Pub
-.dart_tool/
-.packages
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-build/
-**/doc/api/
-
 # Android
-android/.gradle/
-android/app/build/
-android/app/debug/
-android/app/profile/
-android/app/release/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/app/src/main/java/io/flutter/plugins/
+/android/app/src/main/res/raw/*
+!/android/app/src/main/res/raw/flutter_assets
+/android/key.properties
+/android/.gradle/
+/android/local.properties
+/android/gradle.properties
 
 # iOS
-ios/Flutter/.last_build_id
-ios/Pods/
-ios/Runner.xcworkspace/
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/Flutter/App.framework
+/ios/Flutter/App.framework/
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Flutter.podspec/
+/ios/Flutter/Generated.xcconfig
+/ios/ServiceDefinitions.json
+/ios/Runner/GeneratedPluginRegistrant.*
+/ios/Pods/
+/ios/.symlinks/
 
-# macOS
-macos/Flutter/
-macos/Runner.xcworkspace/
-macos/Flutter/GeneratedPluginRegistrant.swift
+# Build directories
+/build/
+/android/build/
+/ios/build/
 
-# Windows
-windows/flutter/
-windows/runner/Debug/
-windows/runner/Release/
+# General
+.DS_Store
+*.swp
+*.swo
+*~
+/.idea/
+/.vscode/
+/.history
 
-# Linux
-linux/flutter/
-linux/flutter/generated_plugin_registrant.*
+# Dart
+/.dart_tool/
+/.packages
+/pubspec.lock
+.pub-cache/
+.pub/
 
-# Symbolication / Obfuscation
-app.*.symbols
-app.*.map.json
+# Flutter
+/bin/cache/
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.metadata
+
+# Web
+/web/
+
+# Environment variables
+.env
+.env.production
+.env.development
+
+# OS generated files
+Thumbs.db
+
+# Windows specific
+*.psd
+*.db
 
 # Sensitive config / server URL
 lib/ServerUrl/
