@@ -7,6 +7,7 @@ class MyColors {
   static const Color white = Color(0xffffffff); // Custom Red Color
   static const Color black = Color(0xff000000); // Custom Red Color
   static const Color off_white = Color(0xff8B8C93); // Custom Red Color
+  static const Color off_whites = Color(0xff8B8C93); // Custom Red Color
 
   static const Color red = Color(0xffff0000); // Custom Red Color
   static const Color hint_color = Color(0xE8989494); // Custom Red Color
