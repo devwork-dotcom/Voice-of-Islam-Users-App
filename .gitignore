@@ -1,0 +1,66 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history/
+.svn/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optional, uncomment if you want)
+#.vscode/
+
+# Flutter / Dart / Pub
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+
+# Android
+android/.gradle/
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+
+# macOS
+macos/Flutter/
+macos/Runner.xcworkspace/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Windows
+windows/flutter/
+windows/runner/Debug/
+windows/runner/Release/
+
+# Linux
+linux/flutter/
+linux/flutter/generated_plugin_registrant.*
+
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Sensitive config / server URL
+lib/ServerUrl/

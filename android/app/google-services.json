@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "814229260441",
+    "firebase_url": "https://voiceofislam-57e4c-default-rtdb.firebaseio.com",
+    "project_id": "voiceofislam-57e4c",
+    "storage_bucket": "voiceofislam-57e4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814229260441:android:6fb995e952eebb6a119008",
+        "android_client_info": {
+          "package_name": "com.example.voiceofislam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814229260441-91m0qorb1eqec9jdsb6fp5hcbav20gkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.voiceofislam",
+            "certificate_hash": "002008c11b26c252b129208a6c83e5dda047a285"
+          }
+        },
+        {
+          "client_id": "814229260441-v1nh0j52gju0t5sj5r7e29dd5qkc5p25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgqBcoU7bc3nHZVS_yRHrXzyoPOvTmjUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814229260441-v1nh0j52gju0t5sj5r7e29dd5qkc5p25.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "814229260441-n7p6951qo68jt3p7pje1racebcqatoqn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.voiceofislam"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
